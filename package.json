@@ -10,9 +10,17 @@
   "scripts": {
     "optimize": "node src/optimize.js",
     "build": "node src/icons.js",
+    "lint": "eslint *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "svgo": "^1.3.2"
+    "prettier": "^1.15.3",
+    "eslint": "^5.12.1",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "svgo": "^1.3.2",
+    "svg2img": "^0.6.1"
   }
 }

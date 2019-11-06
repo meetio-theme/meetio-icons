@@ -1,7 +1,7 @@
 /*eslint-disable no-undef */
-const path = require("path");
-const fs = require("fs");
-const SVGO = require("svgo");
+const path = require("path")
+const fs = require("fs")
+const SVGO = require("svgo")
 
 const svgo = new SVGO({
     plugins: [
@@ -103,6 +103,9 @@ const svgo = new SVGO({
         },
         {
             removeDimensions: true
+        },
+        {
+            removeAttrs: false
         }
     ]
 });
@@ -112,14 +115,11 @@ fs.readdirSync("./src/svg/").forEach(icon => {
     fs.readFile(filepath, "utf8", (err, data) => {
         if (err) throw err;
         svgo.optimize(data, { path: filepath }).then(function(result) {
-            fs.writeFileSync(result.path,
-                result.data,
-                err => {
-                    if (err) {
-                        console.log(err);
-                    }
+            fs.writeFileSync(result.path, result.data, err => {
+                if (err) {
+                    console.log(err);
                 }
-            );
+            });
         });
     });
 });
