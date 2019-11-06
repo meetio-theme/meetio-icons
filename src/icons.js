@@ -4,8 +4,8 @@ const fs = require("fs")
 const svg2img = require("svg2img")
 const defaultOptions = require("./default.js")
 
-fs.readdirSync("./src/icons/svg/").forEach(icon => {
-    const iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`)
+fs.readdirSync("./src/svg/").forEach(icon => {
+    const iconPath = path.join(__dirname, `/../src/svg/${icon}`)
     icon = icon
         .split(".")
         .slice(0, -1)
