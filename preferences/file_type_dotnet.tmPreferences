@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>ASP</string>
+      <string>file_type_dotnet</string>
     </dict>
   </dict>
 </plist>

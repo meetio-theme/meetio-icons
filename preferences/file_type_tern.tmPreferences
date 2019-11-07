@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>JSON (Tern JS)</string>
+      <string>file_type_tern</string>
     </dict>
   </dict>
 </plist>

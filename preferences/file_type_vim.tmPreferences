@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>VimL</string>
+      <string>file_type_vim</string>
     </dict>
   </dict>
 </plist>

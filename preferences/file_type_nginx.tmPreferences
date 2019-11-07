@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>nginx</string>
+      <string>file_type_nginx</string>
     </dict>
   </dict>
 </plist>

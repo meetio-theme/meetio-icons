@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Lisp</string>
+      <string>file_type_lisp</string>
     </dict>
   </dict>
 </plist>

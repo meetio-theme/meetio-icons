@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Markdown</string>
+      <string>file_type_markdown</string>
     </dict>
   </dict>
 </plist>

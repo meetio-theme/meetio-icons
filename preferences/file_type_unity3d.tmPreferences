@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Boo (Unity 3D)</string>
+      <string>file_type_unity3d</string>
     </dict>
   </dict>
 </plist>

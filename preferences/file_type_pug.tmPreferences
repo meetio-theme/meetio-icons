@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Pug</string>
+      <string>file_type_pug</string>
     </dict>
   </dict>
 </plist>

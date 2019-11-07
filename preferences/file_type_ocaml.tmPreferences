@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>OCaml</string>
+      <string>file_type_ocaml</string>
     </dict>
   </dict>
 </plist>

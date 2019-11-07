@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Haskell</string>
+      <string>file_type_haskell</string>
     </dict>
   </dict>
 </plist>

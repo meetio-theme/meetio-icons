@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>MATLAB</string>
+      <string>file_type_matlab</string>
     </dict>
   </dict>
 </plist>

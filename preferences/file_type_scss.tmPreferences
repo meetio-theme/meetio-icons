@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>SCSS</string>
+      <string>file_type_scss</string>
     </dict>
   </dict>
 </plist>

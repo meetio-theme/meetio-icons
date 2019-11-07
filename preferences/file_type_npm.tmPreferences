@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Shell Script (NPM)</string>
+      <string>file_type_npm</string>
     </dict>
   </dict>
 </plist>

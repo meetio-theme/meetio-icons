@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Dart</string>
+      <string>file_type_dart</string>
     </dict>
   </dict>
 </plist>

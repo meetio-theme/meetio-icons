@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>LESS</string>
+      <string>file_type_less</string>
     </dict>
   </dict>
 </plist>

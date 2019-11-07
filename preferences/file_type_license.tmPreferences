@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Plain Text (License)</string>
+      <string>file_type_license</string>
     </dict>
   </dict>
 </plist>

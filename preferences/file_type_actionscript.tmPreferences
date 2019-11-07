@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>ActionScript</string>
+      <string>file_type_actionscript</string>
     </dict>
   </dict>
 </plist>

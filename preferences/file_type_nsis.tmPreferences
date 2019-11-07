@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>NSIS</string>
+      <string>file_type_nsis</string>
     </dict>
   </dict>
 </plist>

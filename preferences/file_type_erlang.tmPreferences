@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Erlang</string>
+      <string>file_type_erlang</string>
     </dict>
   </dict>
 </plist>

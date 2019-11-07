@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>D</string>
+      <string>file_type_dlang</string>
     </dict>
   </dict>
 </plist>

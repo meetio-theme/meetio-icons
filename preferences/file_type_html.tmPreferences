@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>HTML</string>
+      <string>file_type_html</string>
     </dict>
   </dict>
 </plist>

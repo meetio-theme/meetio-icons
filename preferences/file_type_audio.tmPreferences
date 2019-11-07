@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Plain Text (Audio)</string>
+      <string>file_type_audio</string>
     </dict>
   </dict>
 </plist>

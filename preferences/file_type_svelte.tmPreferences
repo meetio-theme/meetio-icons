@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Svelte</string>
+      <string>file_type_svelte</string>
     </dict>
   </dict>
 </plist>

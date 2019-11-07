@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>VHDL</string>
+      <string>file_type_vhdl</string>
     </dict>
   </dict>
 </plist>

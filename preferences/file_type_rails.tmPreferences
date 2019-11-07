@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Rails</string>
+      <string>file_type_rails</string>
     </dict>
   </dict>
 </plist>

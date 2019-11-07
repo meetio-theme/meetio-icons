@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>JavaScript (Gruntfile)</string>
+      <string>file_type_gruntfile</string>
     </dict>
   </dict>
 </plist>

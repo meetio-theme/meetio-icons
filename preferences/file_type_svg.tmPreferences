@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>XML (SVG)</string>
+      <string>file_type_svg</string>
     </dict>
   </dict>
 </plist>

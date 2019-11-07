@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Registry (REG)</string>
+      <string>file_type_registry</string>
     </dict>
   </dict>
 </plist>

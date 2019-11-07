@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Textile</string>
+      <string>file_type_textile</string>
     </dict>
   </dict>
 </plist>

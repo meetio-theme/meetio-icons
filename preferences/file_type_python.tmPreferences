@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Python</string>
+      <string>file_type_python</string>
     </dict>
   </dict>
 </plist>

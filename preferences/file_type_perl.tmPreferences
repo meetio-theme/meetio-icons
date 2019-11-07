@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Perl</string>
+      <string>file_type_perl</string>
     </dict>
   </dict>
 </plist>

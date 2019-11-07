@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>LSL</string>
+      <string>file_type_lsl</string>
     </dict>
   </dict>
 </plist>

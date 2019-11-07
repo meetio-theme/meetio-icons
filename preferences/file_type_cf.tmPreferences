@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>ColdFusion</string>
+      <string>file_type_cf</string>
     </dict>
   </dict>
 </plist>

@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Terraform</string>
+      <string>file_type_terraform</string>
     </dict>
   </dict>
 </plist>

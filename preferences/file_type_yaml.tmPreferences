@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>YAML</string>
+      <string>file_type_yaml</string>
     </dict>
   </dict>
 </plist>

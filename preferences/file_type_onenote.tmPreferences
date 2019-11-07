@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Plain Text (Microsoft OneNote)</string>
+      <string>file_type_onenote</string>
     </dict>
   </dict>
 </plist>

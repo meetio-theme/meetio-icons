@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Plain Text (Microsoft Word)</string>
+      <string>file_type_word</string>
     </dict>
   </dict>
 </plist>

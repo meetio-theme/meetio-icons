@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Tcl</string>
+      <string>file_type_tcl</string>
     </dict>
   </dict>
 </plist>

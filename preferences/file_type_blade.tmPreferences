@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Laravel Blade Highlighter</string>
+      <string>file_type_blade</string>
     </dict>
   </dict>
 </plist>

@@ -5,8 +5,7 @@ const svg2img = require("svg2img")
 const defaultOptions = require("./default")
 const icons = require("./icons")
 
-const template = (scope, name) =>
-`<?xml version="1.0" encoding="UTF-8"?>
+const template = (scope, name) =>`<?xml version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
   <dict>
     <key>scope</key>
@@ -21,7 +20,7 @@ const template = (scope, name) =>
 `
 
 Object.keys(icons).forEach(key => {
-    const data = template(icons[key].scope, icons[key].name)
+    const data = template(icons[key].scope, key)
     fs.writeFileSync(`preferences/${key}.tmPreferences`, data, err => {
         if (err) {
             console.log(err)

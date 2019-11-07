@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Puppet</string>
+      <string>file_type_puppet</string>
     </dict>
   </dict>
 </plist>

@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>PowerShell</string>
+      <string>file_type_powershell</string>
     </dict>
   </dict>
 </plist>

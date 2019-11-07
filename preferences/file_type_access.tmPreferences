@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Plain Text (Microsoft Access)</string>
+      <string>file_type_access</string>
     </dict>
   </dict>
 </plist>

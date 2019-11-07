@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>YAML (CircleCI)</string>
+      <string>file_type_circleci</string>
     </dict>
   </dict>
 </plist>

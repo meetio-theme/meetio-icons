@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>Swift</string>
+      <string>file_type_swift</string>
     </dict>
   </dict>
 </plist>

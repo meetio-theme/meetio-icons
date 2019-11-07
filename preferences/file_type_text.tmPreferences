@@ -6,7 +6,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>LaTeX</string>
+      <string>file_type_text</string>
     </dict>
   </dict>
 </plist>
