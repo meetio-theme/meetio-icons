@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>scope</key>
+    <string>source.sublimekeymap,source.yaml.sublime,source.sublime-settings,source.json.sublime</string>
+    <key>settings</key>
+    <dict>
+      <key>icon</key>
+      <string>Sublime Text Key Map</string>
+    </dict>
+  </dict>
+</plist>

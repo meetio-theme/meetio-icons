@@ -5,20 +5,29 @@ const svg2img = require("svg2img")
 const defaultOptions = require("./default")
 const icons = require("./icons")
 
-const template = (scope, name) => `
-    <?xml version="1.0" encoding="UTF-8"?>
-    <plist version="1.0">
-      <dict>
-        <key>scope</key>
-        <string>s${scope}</string>
-        <key>settings</key>
-        <dict>
-          <key>icon</key>
-          <string>${name}</string>
-        </dict>
-      </dict>
-    </plist>
+const template = (scope, name) =>
+`<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>scope</key>
+    <string>${scope}</string>
+    <key>settings</key>
+    <dict>
+      <key>icon</key>
+      <string>${name}</string>
+    </dict>
+  </dict>
+</plist>
 `
+
+Object.keys(icons).forEach(key => {
+    const data = template(icons[key].scope, icons[key].name)
+    fs.writeFileSync(`preferences/${key}.tmPreferences`, data, err => {
+        if (err) {
+            console.log(err)
+        }
+    })
+})
 
 fs.readdirSync("./src/svg/").forEach(icon => {
     const iconPath = path.join(__dirname, `/../src/svg/${icon}`)
