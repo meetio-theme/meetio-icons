@@ -2,8 +2,8 @@
 const path = require("path")
 const fs = require("fs")
 const svg2img = require("svg2img")
-const defaultOptions = require("./default")
-const icons = require("./icons")
+const defaultOptions = require("./settings/default")
+const icons = require("./settings/icons")
 
 const template = (scope, name) =>`<?xml version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
