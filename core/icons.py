@@ -29,7 +29,7 @@ def _init_overlay(dest):
     In order to make sure to override existing icons provided by the themes
     icons need to be copied to a package, which is loaded as late as possible.
 
-    This function therefore creates a package named `@@ Meetio Theme Icons @@` and
+    This function therefore creates a package named `zzz Meetio Theme Icons zzz` and
     copies all icons over there.
     """
     # copy icons from the loosen package folder

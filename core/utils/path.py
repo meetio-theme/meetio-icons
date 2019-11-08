@@ -2,7 +2,7 @@ import os
 import sublime
 
 PACKAGE_NAME, *_ = __package__.split(".", 1)
-OVERLAY_ROOT = "{0} {1} {0}".format("@@", PACKAGE_NAME)
+OVERLAY_ROOT = "{0} {1} {0}".format("zzz", PACKAGE_NAME)
 
 
 def makedirs(*args):

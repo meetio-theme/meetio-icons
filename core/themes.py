@@ -5,7 +5,6 @@ import shutil
 import sublime
 
 from .utils import path
-from .utils.colors import convert_color_value
 from .utils.logging import log, dump
 
 from . import icons
@@ -15,14 +14,8 @@ def patch(settings, overwrite=False):
     theme_packages = _installed_themes()
     supported = [] if settings.get("force_mode") else _customizable_themes()
 
-    general_patch = _create_general_patch(settings)
-    specific_patch = _create_specific_patch(settings)
-
     general = path.overlay_patches_general_path()
     specific = path.overlay_patches_specific_path()
-
-    color = "single" if settings.get("color") else "multi"
-    general_dest = os.path.join(general, color)
 
     patched = set()
 
@@ -31,11 +24,10 @@ def patch(settings, overwrite=False):
         if package in supported:
             icons.copy_missing(general, specific, package)
             patched.update(_patch_themes(
-                themes, os.path.join(specific, package, color),
-                specific_patch, overwrite))
+                themes, os.path.join(specific, package), overwrite))
         else:
             patched.update(_patch_themes(
-                themes, general_dest, general_patch, overwrite))
+                themes, overwrite))
 
     log("Removing obsolete theme patches")
     for dirpath, dirnames, filenames in os.walk(path.overlay_patches_path()):
@@ -111,64 +103,3 @@ def _patch_themes(themes, dest, text, overwrite):
         else:
             log("Patched `{}`".format(theme))
     return patched
-
-
-def _create_general_patch(settings):
-    log("Preparing general patch")
-    theme_content = []
-
-    color = convert_color_value(settings.get("color"))
-    opacity = settings.get("opacity")
-    size = settings.get("size")
-    row_padding = settings.get("row_padding")
-    if color or opacity or size or row_padding:
-        icon = _patch_icon(None, color, opacity)
-        if size:
-            icon["content_margin"] = [size, size]
-        if row_padding:
-            icon["row_padding"] = row_padding
-        theme_content.append(icon)
-
-    color = convert_color_value(settings.get("color_on_hover"))
-    opacity = settings.get("opacity_on_hover")
-    if color or opacity:
-        theme_content.append(_patch_icon("hover", color, opacity))
-
-    color = convert_color_value(settings.get("color_on_select"))
-    opacity = settings.get("opacity_on_select")
-    if color or opacity:
-        theme_content.append(_patch_icon("selected", color, opacity))
-
-    dump(theme_content)
-    return json.dumps(theme_content)
-
-
-def _create_specific_patch(settings):
-    log("Preparing specific patch")
-    theme_content = []
-
-    color = convert_color_value(settings.get("color"))
-    if color:
-        theme_content.append(_patch_icon(None, color))
-
-        color_on_hover = convert_color_value(settings.get("color_on_hover"))
-        if color_on_hover:
-            theme_content.append(_patch_icon("hover", color_on_hover))
-
-        color_on_select = convert_color_value(settings.get("color_on_select"))
-        if color_on_select:
-            theme_content.append(_patch_icon("selected", color_on_select))
-
-    dump(theme_content)
-    return json.dumps(theme_content)
-
-
-def _patch_icon(attrib, color=None, opacity=None):
-    icon = {"class": "icon_file_type"}
-    if attrib:
-        icon["parents"] = [{"class": "tree_row", "attributes": [attrib]}]
-    if color:
-        icon["layer0.tint"] = color
-    if opacity:
-        icon["layer0.opacity"] = opacity
-    return icon
