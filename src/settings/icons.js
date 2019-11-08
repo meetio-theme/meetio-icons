@@ -1242,7 +1242,7 @@ module.exports = {
                     "sublime-mousemap"
                 ],
                 base: "source.json",
-                scope: "source.json.sublime"
+                scope: "source.sublimekeymap, source.sublime-settings, source.json.sublime"
             },
             {
                 name: "YAML (Sublime)",

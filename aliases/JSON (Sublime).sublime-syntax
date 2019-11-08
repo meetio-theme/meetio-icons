@@ -4,7 +4,7 @@
 name: JSON (Sublime)
 hidden: true
 file_extensions: [".no-sublime-package","hidden-theme","sublime-commands","sublime-menu","sublime-project","sublime-settings","sublime-theme","sublime-workspace","sublime-keymap","sublime-mousemap"]
-scope: source.json.sublime
+scope: source.sublimekeymap, source.sublime-settings, source.json.sublime
 contexts:
   main:
     - include: scope:source.json
