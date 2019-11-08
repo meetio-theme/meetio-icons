@@ -18,26 +18,5 @@
         ]
       }
     ]
-  },
-  {
-    "id": "preferences",
-    "children":
-    [
-      {
-        "id": "package-settings",
-        "caption": "Package Settings",
-        "children":
-        [
-          {
-            "caption": "Meetio Theme Icons",
-            "command": "edit_settings",
-            "args": {
-              "base_file": "${packages}/Meetio Theme Icons/.sublime/Meetio Theme Icons.sublime-settings",
-              "default": "{\n  // Meetio Theme Icons Preferences – User\n  // ================================================================\n\n  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  // ! PLEASE RESTART SUBLIME TEXT FOR THESE CHANGES TO TAKE EFFECT !\n  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n  $0\n}\n"
-            }
-          }
-        ]
-      }
-    ]
   }
 ]
