@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Git Keep
+hidden: true
+file_extensions: [".gitkeep","source.git","source.shell.git","text.git","text.git.keep"]
+scope: text.git.keep, source.git, source.shell.git, text.git, text.git.keep
+contexts:
+  main:
+    - include: scope:text.plain

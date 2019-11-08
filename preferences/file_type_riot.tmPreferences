@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.jade.riot, text.html.riot</string>
+    <string>source.jade.riot</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

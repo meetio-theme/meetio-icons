@@ -1,554 +1,1531 @@
+/*eslint-disable no-undef */
 module.exports = {
     file_type_access: {
-        name: "Plain Text (Microsoft Access)",
-        scope: ["text.plain.access"],
+        aliases: [
+            {
+                name: "Plain Text (Microsoft Access)",
+                extensions: [
+                    "adn",
+                    "accdb",
+                    "accdr",
+                    "accdt",
+                    "accda",
+                    "mdw",
+                    "accde",
+                    "mam",
+                    "maq",
+                    "mar",
+                    "mat",
+                    "maf",
+                    "laccdb"
+                ],
+                base: "text.plain",
+                scope: "text.plain.access"
+            }
+        ]
     },
     file_type_actionscript: {
-        name: "ActionScript",
-        scope: ["source.actionscript"],
+        syntaxes: [
+            {
+                name: "ActionScript",
+                scope: "source.actionscript"
+            }
+        ]
     },
     file_type_ae: {
-        name: "Plain Text (Adobe After Effects)",
-        scope: ["text.plain.ae"],
+        aliases: [
+            {
+                name: "Plain Text (Adobe After Effects)",
+                extensions: ["aep", "aet"],
+                base: "text.plain",
+                scope: "text.plain.ae"
+            }
+        ]
     },
     file_type_ai: {
-        name: "Plain Text (Adobe Illustrator)",
-        scope: ["text.plain.ai"],
+        aliases: [
+            {
+                name: "Plain Text (Adobe Illustrator)",
+                extensions: ["ai"],
+                base: "text.plain",
+                scope: "text.plain.ai"
+            }
+        ]
     },
     file_type_angular: {
-        name: "Angular​JS",
-        scope: ["text.html.basic.angularjs"],
+        syntaxes: [
+            {
+                name: "Angular​JS",
+                scope: "text.html.basic.angularjs"
+            }
+        ]
     },
     file_type_apache: {
-        name: "Apache Conf",
-        scope: ["source.apacheconf"],
+        syntaxes: [
+            {
+                name: "Apache Conf",
+                scope: "source.apacheconf"
+            }
+        ]
     },
     file_type_applescript: {
-        name: "AppleScript",
-        scope: ["source.applescript"],
+        syntaxes: [
+            {
+                name: "AppleScript",
+                scope: "source.applescript"
+            }
+        ]
     },
     file_type_archive: {
-        name: "Plain Text (Archive)",
-        scope: ["text.plain.archive"],
+        aliases: [
+            {
+                name: "Plain Text (Archive)",
+                extensions: [
+                    "7z",
+                    "7zip",
+                    "gz",
+                    "pzip",
+                    "rar",
+                    "saz",
+                    "tar",
+                    "tgz",
+                    "wim",
+                    "zip"
+                ],
+                base: "text.plain",
+                scope: "text.plain.archive"
+            }
+        ]
     },
     file_type_audio: {
-        name: "Plain Text (Audio)",
-        scope: ["text.plain.audio"],
+        aliases: [
+            {
+                name: "Plain Text (Audio)",
+                extensions: [
+                    "mp3",
+                    "m4p",
+                    "aac",
+                    "aiff",
+                    "au",
+                    "flac",
+                    "m4a",
+                    "mpc",
+                    "mp+",
+                    "mpp",
+                    "oga",
+                    "opus",
+                    "ra",
+                    "rm",
+                    "wav",
+                    "wma"
+                ],
+                base: "text.plain",
+                scope: "text.plain.audio"
+            }
+        ]
     },
     file_type_babel: {
-        name: "JSON (Babel)",
-        scope: ["source.json.babel"],
+        aliases: [
+            {
+                name: "JSON (Babel)",
+                linter: "json",
+                extensions: [".babelrc"],
+                base: "source.json",
+                scope: "source.json.babel"
+            }
+        ]
     },
-    file_type_binary: {},
     file_type_blade: {
-        name: "Laravel Blade Highlighter",
-        scope: ["text.blade"],
+        syntaxes: [
+            {
+                name: "Laravel Blade Highlighter",
+                scope: "text.blade"
+            }
+        ]
     },
     file_type_bower: {
-        name: "JSON (Bower)",
-        scope: ["source.json.bower"],
+        aliases: [
+            {
+                name: "JSON (Bower)",
+                linter: "json",
+                extensions: ["bower.json", ".bowerrc"],
+                base: "source.json",
+                scope: "source.json.bower"
+            }
+        ]
     },
     file_type_c: {
-        name: "C",
-        scope: ["source.c", "source.objc"],
+        syntaxes: [
+            {
+                name: "C",
+                scope: "source.c"
+            },
+            {
+                name: "Objective-C",
+                scope: "source.objc"
+            }
+        ]
     },
     file_type_circleci: {
-        name: "YAML (CircleCI)",
-        scope: ["source.yaml.circleci"],
+        aliases: [
+            {
+                name: "YAML (CircleCI)",
+                linter: "yaml",
+                extensions: ["circle.yml"],
+                base: "source.yaml",
+                scope: "source.yaml.circleci"
+            }
+        ]
     },
     file_type_cf: {
-        name: "ColdFusion",
-        scope: [
-            "source.cfscript.cfc",
-            "text.html.cfm",
-            "embedding.cfml",
-            "source.cfml.script",
-        ],
+        syntaxes: [
+            {
+                name: "ColdFusion",
+                scope: "source.cfscript.cfc, text.html.cfm"
+            },
+            {
+                name: "CFML",
+                scope: "embedding.cfml, source.cfml.script"
+            }
+        ]
     },
     file_type_clojure: {
-        name: "Clojure",
-        scope: ["source.clojure"],
+        syntaxes: [
+            {
+                name: "Clojure",
+                scope: "source.clojure"
+            }
+        ]
     },
     file_type_cmake: {
-        name: "CMake",
-        scope: ["source.cmake, source.cmakeeditor"],
+        syntaxes: [
+            {
+                name: "CMake",
+                scope: "source.cmake"
+            },
+            {
+                name: "CMakeEditor",
+                scope: "source.cmakeeditor"
+            }
+        ]
     },
     file_type_coffeescript: {
-        name: "CoffeeScript",
-        scope: ["source.coffee"],
+        syntaxes: [
+            {
+                name: "CoffeeScript",
+                scope: "source.coffee"
+            }
+        ]
     },
     file_type_composer: {
-        name: "JSON (Composer)",
-        scope: ["source.json.composer"],
+        aliases: [
+            {
+                name: "JSON (Composer)",
+                linter: "json",
+                extensions: ["composer.json", "composer.lock"],
+                base: "source.json",
+                scope: "source.json.composer"
+            }
+        ]
     },
     file_type_cpp: {
-        name: "C++",
-        scope: ["source.c++", "source.objc++", "source.c++", "source.objc++"],
+        syntaxes: [
+            {
+                name: "C++",
+                scope: "source.c++"
+            },
+            {
+                name: "Objective C++",
+                scope: "source.objc++"
+            }
+        ]
+    },
+    "file_type_c++": {
+        syntaxes: [
+            {
+                name: "C++",
+                scope: "source.c++"
+            },
+            {
+                name: "Objective C++",
+                scope: "source.objc++"
+            }
+        ]
     },
     file_type_csharp: {
-        name: "C#",
-        scope: ["source.cs, source.cs"],
+        syntaxes: [
+            {
+                name: "C#",
+                scope: "source.cs"
+            }
+        ]
+    },
+    "file_type_c#": {
+        syntaxes: [
+            {
+                name: "C#",
+                scope: "source.cs"
+            }
+        ]
     },
     file_type_css: {
-        name: "CSS",
-        scope: ["source.css"],
+        syntaxes: [
+            {
+                name: "CSS",
+                scope: "source.css"
+            }
+        ]
     },
     file_type_csv: {
-        name: "Plain Text (CSV)",
-        scope: ["text.csv", "text.advanced_csv"],
+        aliases: [
+            {
+                name: "Plain Text (CSV)",
+                extensions: ["csv"],
+                base: "text.plain",
+                scope: "text.csv"
+            }
+        ],
+        syntaxes: [
+            {
+                name: "Advanced CSV",
+                scope: "text.advanced_csv"
+            }
+        ]
     },
     file_type_cython: {
-        name: "Cython",
-        scope: ["source.cython"],
+        syntaxes: [
+            {
+                name: "Cython",
+                scope: "source.cython"
+            }
+        ]
     },
     file_type_dart: {
-        name: "Dart",
-        scope: ["source.dart"],
+        syntaxes: [
+            {
+                name: "Dart",
+                scope: "source.dart"
+            }
+        ]
     },
-    file_type_default: {},
     file_type_delphi: {
-        name: "Pascal",
-        scope: ["source.pascal"],
+        syntaxes: [
+            {
+                name: "Pascal",
+                scope: "source.pascal"
+            }
+        ]
     },
     file_type_dlang: {
-        name: "D",
-        scope: ["source.d"],
+        syntaxes: [
+            {
+                name: "D",
+                scope: "source.d"
+            }
+        ]
     },
     file_type_diff: {
-        name: "Diff",
-        scope: ["source.diff"],
+        syntaxes: [
+            {
+                name: "Diff",
+                scope: "source.diff"
+            }
+        ]
     },
     file_type_docker: {
-        name: "Dockerfile",
-        scope: ["source.dockerfile, source.yaml.docker, source.shell.docker"],
+        syntaxes: [
+            {
+                name: "Dockerfile",
+                scope: "source.dockerfile"
+            }
+        ],
+        aliases: [
+            {
+                name: "YAML (Docker)",
+                linter: "yaml",
+                extensions: ["docker-compose.yml"],
+                base: "source.yaml",
+                scope: "source.yaml.docker"
+            },
+            {
+                name: "Shell Script (Docker)",
+                extensions: [".dockerignore"],
+                base: "source.shell",
+                scope: "source.shell.docker"
+            }
+        ]
     },
     file_type_dotnet: {
-        name: "ASP",
-        scope: ["source.asp, text.html.asp"],
+        syntaxes: [
+            {
+                name: "ASP",
+                scope: "source.asp"
+            },
+            {
+                name: "HTML (ASP)",
+                scope: "text.html.asp"
+            }
+        ]
     },
     file_type_editorconfig: {
-        name: "EditorConfig",
-        scope: ["source.ini.editorconfig"],
+        syntaxes: [
+            {
+                name: "EditorConfig",
+                scope: "source.ini.editorconfig"
+            }
+        ]
     },
     file_type_elm: {
-        name: "Elm",
-        scope: ["source.elm"],
+        syntaxes: [
+            {
+                name: "Elm",
+                scope: "source.elm"
+            }
+        ]
     },
     file_type_erlang: {
-        name: "Erlang",
-        scope: ["source.erlang"],
+        syntaxes: [
+            {
+                name: "Erlang",
+                scope: "source.erlang"
+            }
+        ]
     },
     file_type_eslint: {
-        name: "JSON (ESLint)",
-        scope: [
-            "source.json.eslint, source.js.eslint, source.yaml.eslint, source.shell.eslint, text.plain.eslint",
-        ],
+        aliases: [
+            {
+                name: "JSON (ESLint)",
+                linter: "json",
+                extensions: [".eslintrc", ".eslintrc.json"],
+                base: "source.json",
+                scope: "source.json.eslint"
+            },
+            {
+                name: "JavaScript (ESLint)",
+                linter: "javascript",
+                extensions: [".eslintrc.js"],
+                base: "source.js",
+                scope: "source.js.eslint"
+            },
+            {
+                name: "YAML (ESLint)",
+                linter: "yaml",
+                extensions: [".eslintrc.yaml", ".eslintrc.yml"],
+                base: "source.yaml",
+                scope: "source.yaml.eslint"
+            },
+            {
+                name: "Shell Script (ESLint)",
+                extensions: [".eslintignore"],
+                base: "source.shell",
+                scope: "source.shell.eslint"
+            },
+            {
+                name: "Plain Text (ESLint)",
+                extensions: [".eslintcache"],
+                base: "text.plain",
+                scope: "text.plain.eslint"
+            }
+        ]
     },
     file_type_ex: {
-        name: "Elixir",
-        scope: ["source.elixir, text.html.elixir"],
+        syntaxes: [
+            {
+                name: "Elixir",
+                scope: "source.elixir, text.html.elixir"
+            }
+        ]
     },
     file_type_excel: {
-        name: "Plain Text (Microsoft Excel)",
-        scope: ["text.plain.excel"],
+        aliases: [
+            {
+                name: "Plain Text (Microsoft Excel)",
+                extensions: ["xls", "xlsx", "xlsm", "xlsb", "xlt"],
+                base: "text.plain",
+                scope: "text.plain.excel"
+            }
+        ]
     },
     file_type_font: {
-        name: "Plain Text (Font)",
-        scope: ["text.plain.font"],
+        aliases: [
+            {
+                name: "Plain Text (Font)",
+                extensions: ["eot", "otf", "ttf", "woff", "woff2"],
+                base: "text.plain",
+                scope: "text.plain.font"
+            }
+        ]
     },
     file_type_git: {
-        name: "Git Formats",
-        scope: ["text.git, source.git, source.shell.git, text.git.keep"],
+        syntaxes: [
+            {
+                name: "Git Formats",
+                scope: "text.git"
+            },
+            {
+                name: "Git Misc Packages",
+                scope: "source.git"
+            },
+            {
+                name: "Shell Script (Git)",
+                scope: "source.shell.git"
+            }
+        ],
+        aliases: [
+            {
+                name: "Git Keep",
+                extensions: [
+                    ".gitkeep",
+                    "source.git",
+                    "source.shell.git",
+                    "text.git",
+                    "text.git.keep"
+                ],
+                base: "text.plain",
+                scope: "text.git.keep, source.git, source.shell.git, text.git, text.git.keep"
+            }
+        ]
     },
     file_type_go: {
-        name: "Go",
-        scope: ["source.go"],
+        syntaxes: [
+            {
+                name: "Go",
+                scope: "source.go"
+            }
+        ]
     },
     file_type_gradle: {
-        name: "Gradle_Language",
-        scope: ["source.gradle, source.groovy.gradle"],
+        syntaxes: [
+            {
+                name: "Gradle_Language",
+                scope: "source.gradle"
+            }
+        ],
+        aliases: [
+            {
+                name: "Groovy (Gradle)",
+                extensions: ["gradle"],
+                base: "source.groovy",
+                scope: "source.groovy.gradle"
+            }
+        ]
     },
     file_type_graphviz: {
-        name: "Graphviz (DOT)",
-        scope: ["source.dot"],
+        syntaxes: [
+            {
+                name: "Graphviz (DOT)",
+                scope: "source.dot"
+            }
+        ]
     },
     file_type_groovy: {
-        name: "Groovy",
-        scope: ["source.groovy"],
+        syntaxes: [
+            {
+                name: "Groovy",
+                scope: "source.groovy"
+            }
+        ]
     },
     file_type_gruntfile: {
-        name: "JavaScript (Gruntfile)",
-        scope: ["source.js.gruntfile"],
+        aliases: [
+            {
+                name: "JavaScript (Gruntfile)",
+                linter: "javascript",
+                extensions: ["gruntfile.js"],
+                base: "source.js",
+                scope: "source.js.gruntfile"
+            }
+        ]
     },
     file_type_gulpfile: {
-        name: "JavaScript (Gulpfile)",
-        scope: ["source.js.gulpfile, source.coffee.gulpfile"],
+        aliases: [
+            {
+                name: "JavaScript (Gulpfile)",
+                linter: "javascript",
+                extensions: ["gulpfile.js", "gulpfile.babel.js"],
+                base: "source.js",
+                scope: "source.js.gulpfile"
+            },
+            {
+                name: "CoffeeScript (Gulpfile)",
+                linter: "coffeescript",
+                extensions: ["gulpfile.coffee"],
+                base: "source.coffee",
+                scope: "source.coffee.gulpfile"
+            }
+        ]
     },
     file_type_haml: {
-        name: "Ruby Haml",
-        scope: ["text.haml"],
+        syntaxes: [
+            {
+                name: "Ruby Haml",
+                scope: "text.haml"
+            }
+        ]
     },
     file_type_haskell: {
-        name: "Haskell",
-        scope: ["source.haskell"],
+        syntaxes: [
+            {
+                name: "Haskell",
+                scope: "source.haskell"
+            }
+        ]
     },
     file_type_haxe: {
-        name: "Haxe",
-        scope: ["source.haxe"],
+        syntaxes: [
+            {
+                name: "Haxe",
+                scope: "source.haxe"
+            }
+        ]
     },
     file_type_html: {
-        name: "HTML",
-        scope: ["text.html.basic"],
+        syntaxes: [
+            {
+                name: "HTML",
+                scope: "text.html.basic"
+            }
+        ]
     },
-    file_type_image: {},
     file_type_indesign: {
-        name: "Plain Text (Adobe InDesign)",
-        scope: ["text.plain.indesign"],
+        aliases: [
+            {
+                name: "Plain Text (Adobe InDesign)",
+                extensions: ["indd", "indl", "indt", "indb", "inx", "idml"],
+                base: "text.plain",
+                scope: "text.plain.indesign"
+            }
+        ]
     },
     file_type_java: {
-        name: "Java",
-        scope: ["source.java"],
+        syntaxes: [
+            {
+                name: "Java",
+                scope: "source.java"
+            }
+        ]
     },
     file_type_js: {
-        name: "JavaScript",
-        scope: ["source.js"],
+        syntaxes: [
+            {
+                name: "JavaScript",
+                scope: "source.js"
+            }
+        ]
     },
     file_type_json: {
-        name: "JSON",
-        scope: ["source.json, source.json.settings"],
+        syntaxes: [
+            {
+                name: "JSON",
+                scope: "source.json"
+            }
+        ]
     },
     file_type_jsp: {
-        name: "JSP",
-        scope: ["text.html.jsp"],
+        syntaxes: [
+            {
+                name: "JSP",
+                scope: "text.html.jsp"
+            }
+        ]
     },
     file_type_jsx: {
-        name: "JSX",
-        scope: ["source.js.jsx, source.js.react"],
+        syntaxes: [
+            {
+                name: "JSX",
+                scope: "source.js.jsx"
+            },
+            {
+                name: "JS Custom - React",
+                scope: "source.js.react"
+            }
+        ]
     },
     file_type_julia: {
-        name: "Julia",
-        scope: ["source.julia"],
+        syntaxes: [
+            {
+                name: "Julia",
+                scope: "source.julia"
+            }
+        ]
     },
     file_type_kotlin: {
-        name: "Kotlin",
-        scope: ["source.Kotlin"],
+        syntaxes: [
+            {
+                name: "Kotlin",
+                scope: "source.Kotlin"
+            }
+        ]
     },
     file_type_less: {
-        name: "LESS",
-        scope: ["source.less"],
+        syntaxes: [
+            {
+                name: "LESS",
+                scope: "source.less"
+            }
+        ]
     },
     file_type_license: {
-        name: "Plain Text (License)",
-        scope: ["text.plain.license"],
+        aliases: [
+            {
+                name: "Plain Text (License)",
+                extensions: ["copying", "copyright", "license"],
+                base: "text.plain",
+                scope: "text.plain.license"
+            },
+            {
+                name: "Markdown (License)",
+                extensions: ["copying.md", "copyright.md", "license.md"],
+                base: "text.html.markdown",
+                scope: "text.html.markdown.license"
+            }
+        ]
     },
     file_type_liquid: {
-        name: "Siteleaf Liquid Syntax",
-        scope: ["text.html.liquid"],
+        syntaxes: [
+            {
+                name: "Siteleaf Liquid Syntax",
+                scope: "text.html.liquid"
+            }
+        ]
     },
     file_type_lisp: {
-        name: "Lisp",
-        scope: ["source.lisp"],
+        syntaxes: [
+            {
+                name: "Lisp",
+                scope: "source.lisp"
+            }
+        ]
     },
     file_type_lock: {
-        name: "YAML (Lock)",
-        scope: ["source.yaml.lock"],
+        aliases: [
+            {
+                name: "YAML (Lock)",
+                linter: "yaml",
+                extensions: ["Gemfile.lock", "Berksfile.lock"],
+                base: "source.yaml",
+                scope: "source.yaml.lock"
+            }
+        ]
     },
     file_type_log: {
-        name: "Plain Text (Log)",
-        scope: ["text.plain.log"],
+        aliases: [
+            {
+                name: "Plain Text (Log)",
+                extensions: ["log"],
+                base: "text.plain",
+                scope: "text.plain.log"
+            }
+        ]
     },
     file_type_lsl: {
-        name: "LSL",
-        scope: ["source.lsl, source.ossl"],
+        syntaxes: [
+            {
+                name: "LSL",
+                scope: "source.lsl, source.ossl"
+            }
+        ]
     },
     file_type_lua: {
-        name: "Lua",
-        scope: ["source.lua"],
+        syntaxes: [
+            {
+                name: "Lua",
+                scope: "source.lua"
+            }
+        ]
     },
     file_type_markdown: {
-        name: "Markdown",
-        scope: ["text.html.markdown, text.html.markdown.license"],
+        syntaxes: [
+            {
+                name: "Markdown",
+                scope: "text.html.markdown"
+            }
+        ]
     },
-    file_type_markup: {},
     file_type_matlab: {
-        name: "MATLAB",
-        scope: ["source.matlab"],
+        syntaxes: [
+            {
+                name: "MATLAB",
+                scope: "source.matlab"
+            }
+        ]
     },
     file_type_maya: {
-        name: "MEL",
-        scope: ["source.mel"],
+        syntaxes: [
+            {
+                name: "MEL",
+                scope: "source.mel"
+            }
+        ]
     },
     file_type_mustache: {
-        name: "HTML Mustache",
-        scope: ["txt.html.mustache, text.html.hgn"],
-    },
-    file_type_handlebars: {
-        name: "Handlebars",
-        scope: ["text.html.handlebars, source.hamlbars"],
+        syntaxes: [
+            {
+                name: "HTML Mustache",
+                scope: "txt.html.mustache, text.html.hgn"
+            },
+            {
+                name: "Handlebars",
+                scope: "text.html.handlebars"
+            },
+            {
+                name: "Hamlbars",
+                scope: "source.hamlbars"
+            }
+        ]
     },
     file_type_nginx: {
-        name: "nginx",
-        scope: ["source.nginx"],
+        syntaxes: [
+            {
+                name: "nginx",
+                scope: "source.nginx"
+            }
+        ]
     },
     file_type_nodejs: {
-        name: "Plain Text (NodeJS)",
-        scope: ["text.plain.nodejs"],
+        aliases: [
+            {
+                name: "Plain Text (NodeJS)",
+                extensions: [".node-version", ".nvmrc"],
+                base: "text.plain",
+                scope: "text.plain.nodejs"
+            }
+        ]
     },
     file_type_note: {
-        name: "PlainNotes",
-        scope: ["text.html.markdown.note"],
+        syntaxes: [
+            {
+                name: "PlainNotes",
+                scope: "text.html.markdown.note"
+            }
+        ]
     },
     file_type_npm: {
-        name: "Shell Script (NPM)",
-        scope: ["source.shell.npm, source.json.npm"],
+        aliases: [
+            {
+                name: "Shell Script (NPM)",
+                extensions: [".npmignore", ".npmrc"],
+                base: "source.shell",
+                scope: "source.shell.npm"
+            },
+            {
+                name: "JSON (NPM)",
+                linter: "json",
+                extensions: ["package-lock.json", "package.json"],
+                base: "source.json",
+                scope: "source.json.npm"
+            }
+        ]
     },
     file_type_nsis: {
-        name: "NSIS",
-        scope: ["source.nsis"],
+        syntaxes: [
+            {
+                name: "NSIS",
+                scope: "source.nsis"
+            }
+        ]
     },
     file_type_ocaml: {
-        name: "OCaml",
-        scope: [
-            "source.ocaml, source.ocamllex, source.ocamlyacc, source.camlp4.ocaml",
-        ],
+        syntaxes: [
+            {
+                name: "OCaml",
+                scope:
+                    "source.ocaml, source.ocamllex, source.ocamlyacc, source.camlp4.ocaml"
+            }
+        ]
     },
     file_type_onenote: {
-        name: "Plain Text (Microsoft OneNote)",
-        scope: ["text.plain.onenote"],
+        aliases: [
+            {
+                name: "Plain Text (Microsoft OneNote)",
+                extensions: ["one"],
+                base: "text.plain",
+                scope: "text.plain.onenote"
+            }
+        ]
     },
     file_type_pdf: {
-        name: "Plain Text (PDF)",
-        scope: ["text.plain.pdf"],
+        aliases: [
+            {
+                name: "Plain Text (PDF)",
+                extensions: ["pdf"],
+                base: "text.plain",
+                scope: "text.plain.pdf"
+            }
+        ]
     },
     file_type_perl: {
-        name: "Perl",
-        scope: ["source.perl"],
+        syntaxes: [
+            {
+                name: "Perl",
+                scope: "source.perl"
+            }
+        ]
     },
     file_type_php: {
-        name: "PHP",
-        scope: ["embedding.php, source.php"],
+        syntaxes: [
+            {
+                name: "PHP",
+                scope: "embedding.php, source.php"
+            }
+        ]
     },
     file_type_plist: {
-        name: "plist",
-        scope: ["text.plist"],
+        syntaxes: [
+            {
+                name: "plist",
+                scope: "text.plist"
+            }
+        ]
     },
     file_type_postcss: {
-        name: "Post​CSS",
-        scope: ["source.postcss", "source.js.postcss"],
+        syntaxes: [
+            {
+                name: "Syntax Highlighting for Post​CSS",
+                scope: "source.postcss"
+            }
+        ],
+        aliases: [
+            {
+                name: "JSON (PostCSS)",
+                linter: "json",
+                extensions: [".postcssrc"],
+                base: "source.json",
+                scope: "source.json.postcss"
+            },
+            {
+                name: "JavaScript (PostCSS)",
+                linter: "javascript",
+                extensions: ["postcss.config.js"],
+                base: "source.js",
+                scope: "source.js.postcss"
+            }
+        ]
     },
     file_type_powerpoint: {
-        name: "Plain Text (Microsoft PowerPoint)",
-        scope: ["text.plain.powerpoint"],
+        aliases: [
+            {
+                name: "Plain Text (Microsoft PowerPoint)",
+                extensions: ["ppt", "pptx", "pps", "ppsx"],
+                base: "text.plain",
+                scope: "text.plain.powerpoint"
+            }
+        ]
     },
     file_type_powershell: {
-        name: "PowerShell",
-        scope: ["source.powershell"],
-    },
-    file_type_preferences: {
-        syntaxes: [],
+        syntaxes: [
+            {
+                name: "PowerShell",
+                scope: "source.powershell"
+            }
+        ]
     },
     file_type_premiere: {
-        name: "Plain Text (Adobe Premiere Pro)",
-        scope: ["text.plain.premiere"],
+        aliases: [
+            {
+                name: "Plain Text (Adobe Premiere Pro)",
+                extensions: ["prel", "prproj", "psq"],
+                base: "text.plain",
+                scope: "text.plain.premiere"
+            }
+        ]
     },
     file_type_procfile: {
-        name: "YAML (Procfile)",
-        scope: ["source.yaml.procfile"],
+        aliases: [
+            {
+                name: "YAML (Procfile)",
+                linter: "yaml",
+                extensions: ["Procfile"],
+                base: "source.yaml",
+                scope: "source.yaml.procfile"
+            },
+            {
+                name: "Plain Text (Buildpacks)",
+                extensions: [".buildpacks"],
+                base: "text.plain",
+                scope: "text.plain.buildpacks"
+            }
+        ]
     },
     file_type_psd: {
-        name: "Plain Text (Adobe Photoshop)",
-        scope: ["text.plain.ps"],
+        aliases: [
+            {
+                name: "Plain Text (Adobe Photoshop)",
+                extensions: ["psb", "psd"],
+                base: "text.plain",
+                scope: "text.plain.ps"
+            }
+        ]
     },
     file_type_pug: {
-        name: "Pug",
-        scope: [
-            "text.pug",
-            "source.json.puglint",
-            "source.js.puglint",
-            "text.jade",
+        syntaxes: [
+            {
+                name: "Jade",
+                scope: "text.jade"
+            },
+            {
+                name: "Pug",
+                scope: "text.pug"
+            }
         ],
+        aliases: [
+            {
+                name: "JSON (Puglint)",
+                linter: "json",
+                extensions: [".pug-lintrc", ".pug-lintrc.json"],
+                base: "source.json",
+                scope: "source.json.puglint"
+            },
+            {
+                name: "JavaScript (Puglint)",
+                linter: "javascript",
+                extensions: [".pug-lintrc.js"],
+                base: "source.js",
+                scope: "source.js.puglint"
+            }
+        ]
     },
     file_type_puppet: {
-        name: "Puppet",
-        scope: ["source.puppet"],
+        syntaxes: [
+            {
+                name: "Puppet",
+                scope: "source.puppet"
+            }
+        ]
     },
     file_type_python: {
-        name: "Python",
-        scope: ["source.python"],
+        syntaxes: [
+            {
+                name: "Python",
+                scope: "source.python"
+            }
+        ]
     },
     file_type_r: {
-        name: "R",
-        scope: ["source.r"],
+        syntaxes: [
+            {
+                name: "R",
+                scope: "source.r"
+            }
+        ]
     },
     file_type_rails: {
-        name: "Rails",
-        scope: ["source.ruby.rails", "text.html.ruby"],
+        syntaxes: [
+            {
+                name: "Rails",
+                scope: "source.ruby.rails, text.html.ruby"
+            }
+        ]
     },
     file_type_registry: {
-        name: "Registry (REG)",
-        scope: ["source.reg"],
+        aliases: [
+            {
+                name: "Registry (REG)",
+                extensions: ["reg"],
+                base: "source.ini",
+                scope: "source.reg"
+            }
+        ]
     },
     file_type_restructuredtext: {
-        name: "reStructuredText",
-        scope: ["text.restructuredtext"],
+        syntaxes: [
+            {
+                name: "reStructuredText",
+                scope: "text.restructuredtext"
+            }
+        ]
     },
     file_type_riot: {
-        name: "Riot (Jade/Pug)",
-        scope: ["source.jade.riot, text.html.riot"],
+        syntaxes: [
+            {
+                name: "Riot (Jade/Pug)",
+                scope: "source.jade.riot"
+            },
+            {
+                name: "Riot (HTML)",
+                scope: "text.html.riot"
+            }
+        ]
     },
     file_type_ruby: {
-        name: "Ruby",
-        scope: ["source.ruby, source.shell.ruby, text.plain.ruby"],
+        syntaxes: [
+            {
+                name: "Ruby",
+                scope: "source.ruby"
+            }
+        ],
+        aliases: [
+            {
+                name: "Shell Script (Ruby)",
+                extensions: [".rvmrc"],
+                base: "source.shell",
+                scope: "source.shell.ruby"
+            },
+            {
+                name: "Plain Text (Ruby)",
+                extensions: [".ruby-version", ".ruby-gemset", ".rspec"],
+                base: "text.plain",
+                scope: "text.plain.ruby"
+            }
+        ]
     },
     file_type_rust: {
-        name: "Rust",
-        scope: ["source.rust"],
+        syntaxes: [
+            {
+                name: "Rust",
+                scope: "source.rust"
+            }
+        ]
     },
     file_type_sass: {
-        name: "Sass",
-        scope: ["source.sass", "source.scss"],
+        syntaxes: [
+            {
+                name: "Sass",
+                scope: "source.sass"
+            }
+        ]
     },
     file_type_scala: {
-        name: "Scala",
-        scope: ["source.scala"],
+        syntaxes: [
+            {
+                name: "Scala",
+                scope: "source.scala"
+            }
+        ]
+    },
+    file_type_scss: {
+        syntaxes: [
+            {
+                name: "SCSS",
+                scope: "source.scss"
+            }
+        ]
     },
     file_type_settings: {
-        name: "INI",
-        scope: ["source.ini, source.env"],
+        syntaxes: [
+            {
+                name: "INI",
+                scope: "source.ini"
+            },
+            {
+                name: "Dot​ENV",
+                scope: "source.env"
+            }
+        ],
+        aliases: [
+            {
+                name: "JSON (Settings)",
+                linter: "json",
+                extensions: [".jshintrc", ".jsbeautifyrc"],
+                base: "source.json",
+                scope: "source.json.settings"
+            },
+            {
+                name: "XML (Config)",
+                linter: "xml",
+                extensions: ["config"],
+                base: "text.xml",
+                scope: "text.xml.config"
+            }
+        ]
     },
     file_type_shell: {
-        name: "Shell Script (Bash)",
-        scope: ["source.shell, source.fish"],
+        syntaxes: [
+            {
+                name: "Shell Script (Bash)",
+                scope: "source.shell"
+            },
+            {
+                name: "Shell Script (Fish)",
+                scope: "source.fish"
+            }
+        ]
     },
     file_type_sketch: {
-        name: "Plain Text (Sketch)",
-        scope: ["text.plain.sketch"],
+        aliases: [
+            {
+                name: "Plain Text (Sketch)",
+                extensions: ["sketch"],
+                base: "text.plain",
+                scope: "text.plain.sketch"
+            }
+        ]
     },
     file_type_slim: {
-        name: "Ruby Slim",
-        scope: ["text.slim"],
+        syntaxes: [
+            {
+                name: "Ruby Slim",
+                scope: "text.slim"
+            }
+        ]
     },
-    file_type_source: {},
     file_type_sql: {
-        name: "SQL",
-        scope: ["source.sql"],
+        syntaxes: [
+            {
+                name: "SQL",
+                scope: "source.sql"
+            }
+        ]
     },
     file_type_stata: {
-        name: "Stata",
-        scope: ["source.stata"],
+        syntaxes: [
+            {
+                name: "Stata",
+                scope: "source.stata"
+            }
+        ]
     },
     file_type_stylelint: {
-        name: "JSON (Stylelint)",
-        scope: [
-            "source.json.stylelint",
-            "source.js.stylelint",
-            "source.yaml.stylelint",
-            "source.shell.stylelint",
-        ],
+        aliases: [
+            {
+                name: "JSON (Stylelint)",
+                linter: "json",
+                extensions: [".stylelintrc", ".stylelintrc.json"],
+                base: "source.json",
+                scope: "source.json.stylelint"
+            },
+            {
+                name: "JavaScript (Stylelint)",
+                linter: "javascript",
+                extensions: [".stylelintrc.js", "stylelint.config.js"],
+                base: "source.js",
+                scope: "source.js.stylelint"
+            },
+            {
+                name: "YAML (Stylelint)",
+                linter: "yaml",
+                extensions: [".stylelintrc.yaml", ".stylelintrc.yml"],
+                base: "source.yaml",
+                scope: "source.yaml.stylelint"
+            },
+            {
+                name: "Shell Script (Stylelint)",
+                extensions: [".stylelintignore"],
+                base: "source.shell",
+                scope: "source.shell.stylelint"
+            }
+        ]
     },
     file_type_stylus: {
-        name: "Stylus",
-        scope: ["source.stylus"],
+        syntaxes: [
+            {
+                name: "Stylus",
+                scope: "source.stylus"
+            }
+        ]
     },
     file_type_sublime: {
-        name: "Sublime Text Key Map",
-        scope: [
-            "source.sublimekeymap",
-            "source.yaml.sublime",
-            "source.sublime-settings",
-            "source.json.sublime",
+        syntaxes: [
+            {
+                name: "Sublime Text Key Map",
+                scope: "source.sublimekeymap"
+            },
+            {
+                name: "Sublime Settings",
+                scope: "source.sublime-settings"
+            }
         ],
+        aliases: [
+            {
+                name: "JSON (Sublime)",
+                linter: "json",
+                extensions: [
+                    ".no-sublime-package",
+                    "hidden-theme",
+                    "sublime-commands",
+                    "sublime-menu",
+                    "sublime-project",
+                    "sublime-settings",
+                    "sublime-theme",
+                    "sublime-workspace",
+                    "sublime-keymap",
+                    "sublime-mousemap"
+                ],
+                base: "source.json",
+                scope: "source.json.sublime"
+            },
+            {
+                name: "YAML (Sublime)",
+                extensions: ["sublime-syntax"],
+                base: "source.yaml",
+                scope: "source.yaml.sublime"
+            }
+        ]
     },
     file_type_svelte: {
-        name: "Svelte",
-        scope: ["text.html.svelte"],
+        syntaxes: [
+            {
+                name: "Svelte",
+                scope: "text.html.svelte"
+            }
+        ]
     },
     file_type_svg: {
-        name: "XML (SVG)",
-        scope: ["text.xml.svg"],
+        aliases: [
+            {
+                name: "XML (SVG)",
+                linter: "xml",
+                extensions: ["svg"],
+                base: "text.xml",
+                scope: "text.xml.svg"
+            }
+        ]
     },
     file_type_swift: {
-        name: "Swift",
-        scope: ["source.swift"],
+        syntaxes: [
+            {
+                name: "Swift",
+                scope: "source.swift"
+            }
+        ]
     },
     file_type_tcl: {
-        name: "Tcl",
-        scope: ["source.tcl"],
+        syntaxes: [
+            {
+                name: "Tcl",
+                scope: "source.tcl"
+            }
+        ]
     },
     file_type_tern: {
-        name: "JSON (Tern JS)",
-        scope: ["source.json.tern"],
+        aliases: [
+            {
+                name: "JSON (Tern JS)",
+                linter: "json",
+                extensions: [".tern-project", ".tern-config"],
+                base: "source.json",
+                scope: "source.json.tern"
+            }
+        ]
     },
     file_type_terraform: {
-        name: "Terraform",
-        scope: ["source.terraform"],
+        syntaxes: [
+            {
+                name: "Terraform",
+                scope: "source.terraform"
+            }
+        ]
     },
-    file_type_text: {
-        name: "LaTeX",
-        scope: ["text.tex, text.biblatex, text.bibtex, text.log.latex"],
+    file_type_tex: {
+        syntaxes: [
+            {
+                name: "LaTeX",
+                scope: "text.tex, text.biblatex, text.bibtex, text.log.latex"
+            }
+        ]
     },
     file_type_textile: {
-        name: "Textile",
-        scope: ["text.html.textile"],
+        syntaxes: [
+            {
+                name: "Textile",
+                scope: "text.html.textile"
+            }
+        ]
     },
     file_type_todo: {
-        name: "PlainTasks",
-        scope: ["text.todo"],
+        syntaxes: [
+            {
+                name: "PlainTasks",
+                scope: "text.todo"
+            }
+        ]
     },
     file_type_twig: {
-        name: "PHP-Twig",
-        scope: ["text.html.twig"],
+        syntaxes: [
+            {
+                name: "PHP-Twig",
+                scope: "text.html.twig"
+            }
+        ]
     },
     file_type_typescript: {
-        name: "TypeScript",
-        scope: ["source.ts"],
+        syntaxes: [
+            {
+                name: "TypeScript",
+                scope: "source.ts"
+            }
+        ]
     },
     file_type_unity3d: {
-        name: "Boo (Unity 3D)",
-        scope: ["source.boo.unity3d", "source.cs.unity3d"],
+        syntaxes: [
+            {
+                name: "Boo (Unity 3D)",
+                scope: "source.boo.unity3d"
+            },
+            {
+                name: "C# (Unity 3D)",
+                scope: "source.cs.unity3d"
+            },
+            {
+                name: "JavaScript (Unity 3D)",
+                scope: "source.js.unity3d"
+            },
+            {
+                name: "Shader (Unity 3D)",
+                scope: "source.shader"
+            }
+        ]
     },
     file_type_vhdl: {
-        name: "VHDL",
-        scope: ["source.vhdl"],
+        syntaxes: [
+            {
+                name: "VHDL",
+                scope: "source.vhdl"
+            },
+            {
+                name: "SystemVerilog",
+                scope: "source.systemverilog"
+            },
+            {
+                name: "Verilog",
+                scope: "source.verilog"
+            }
+        ]
     },
     file_type_video: {
-        name: "Plain Text (Video)",
-        scope: ["text.plain.video"],
+        aliases: [
+            {
+                name: "Plain Text (Video)",
+                extensions: [
+                    "avi",
+                    "mp4",
+                    "mov",
+                    "mkv",
+                    "h264",
+                    "webm",
+                    "wmv",
+                    "ogv",
+                    "ogg",
+                    "3gp",
+                    "m4v",
+                    "mpg",
+                    "mpeg",
+                    "3gpp",
+                    "ogm"
+                ],
+                base: "text.plain",
+                scope: "text.plain.video"
+            }
+        ]
     },
     file_type_vim: {
-        name: "VimL",
-        scope: ["source.viml"],
+        syntaxes: [
+            {
+                name: "VimL",
+                scope: "source.viml"
+            }
+        ],
+        aliases: [
+            {
+                name: "Vimrc (VimL)",
+                extensions: [".vimrc", ".gvimrc", "_vimrc", "_gvimrc"],
+                base: "source.viml",
+                scope: "source.viml.vimrc"
+            }
+        ]
     },
     file_type_visualstudio: {
-        name: "Plain Text (Visual Studio)",
-        scope: ["text.plain.visualstudio"],
+        aliases: [
+            {
+                name: "Plain Text (Visual Studio)",
+                extensions: ["idl", "sln"],
+                base: "text.plain",
+                scope: "text.plain.visualstudio"
+            },
+            {
+                name: "XML (Visual Studio)",
+                extensions: [
+                    "csproj",
+                    "fsproj",
+                    "shproj",
+                    "sqlproj",
+                    "vbproj",
+                    "vcxproj",
+                    "vsproj",
+                    "props",
+                    "ruleset",
+                    "settings",
+                    "targets"
+                ],
+                base: "text.xml",
+                scope: "text.xml.visualstudio"
+            }
+        ]
     },
     file_type_vue: {
-        name: "Vue Syntax Highlight",
-        scope: ["text.html.vue"],
+        syntaxes: [
+            {
+                name: "Vue Syntax Highlight",
+                scope: "text.html.vue"
+            }
+        ]
     },
     file_type_webpack: {
-        name: "JavaScript (Webpack)",
-        scope: ["source.js.webpack"],
+        aliases: [
+            {
+                name: "JavaScript (Webpack)",
+                linter: "javascript",
+                extensions: [
+                    "webpack.config.js",
+                    "webpack.config.babel.js",
+                    "webpack.mix.js"
+                ],
+                base: "source.js",
+                scope: "source.js.webpack"
+            }
+        ]
     },
     file_type_windows: {
-        name: "Batch File",
-        scope: ["source.dosbatch"],
+        syntaxes: [
+            {
+                name: "Batch File",
+                scope: "source.dosbatch"
+            }
+        ],
+        aliases: [
+            {
+                name: "Plain Text (Windows Shortcut)",
+                extensions: ["lnk"],
+                base: "text.plain",
+                scope: "text.plain.lnk"
+            }
+        ]
     },
     file_type_word: {
-        name: "Plain Text (Microsoft Word)",
-        scope: ["text.plain.word"],
+        aliases: [
+            {
+                name: "Plain Text (Microsoft Word)",
+                extensions: [
+                    "doc",
+                    "docx",
+                    "docm",
+                    "docxml",
+                    "dotm",
+                    "dotx",
+                    "wri"
+                ],
+                base: "text.plain",
+                scope: "text.plain.word"
+            }
+        ]
     },
     file_type_yaml: {
-        name: "YAML",
-        scope: ["source.yaml"],
+        syntaxes: [
+            {
+                name: "YAML",
+                scope: "source.yaml"
+            }
+        ]
     },
     file_type_yarn: {
-        name: "YAML (Yarn)",
-        scope: ["source.yaml.yarn"],
-    },
-    file_type_zip: {
-        name: "ZIP",
-        scope: ["source.zip"],
-    },
+        aliases: [
+            {
+                name: "YAML (Yarn)",
+                linter: "yaml",
+                extensions: ["yarn.lock"],
+                base: "source.yaml",
+                scope: "source.yaml.yarn"
+            }
+        ]
+    }
 }

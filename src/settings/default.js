@@ -3,15 +3,15 @@ module.exports = {
     settings: [
         {
             size: 16,
-            suffix: false,
+            suffix: false
         },
         {
             size: 32,
-            suffix: "@2x",
+            suffix: "@2x"
         },
         {
             size: 48,
-            suffix: "@3x",
-        },
-    ],
+            suffix: "@3x"
+        }
+    ]
 }

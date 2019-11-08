@@ -8,8 +8,8 @@
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "optimize": "node src/optimize.js",
-    "build": "node src/build.js",
+    "build:icons": "node src/build.js",
+    "build:preferences": "node src/preferences.js",
     "lint": "eslint *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

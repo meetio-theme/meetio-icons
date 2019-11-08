@@ -108,18 +108,18 @@ const svgo = new SVGO({
             removeAttrs: false
         }
     ]
-});
+})
 
 fs.readdirSync("./src/svg/").forEach(icon => {
-    const filepath = path.join(__dirname, `/../src/svg/${icon}`);
+    const filepath = path.join(__dirname, `/../src/svg/${icon}`)
     fs.readFile(filepath, "utf8", (err, data) => {
-        if (err) throw err;
+        if (err) throw err
         svgo.optimize(data, { path: filepath }).then(function(result) {
             fs.writeFileSync(result.path, result.data, err => {
                 if (err) {
-                    console.log(err);
+                    console.log(err)
                 }
-            });
-        });
-    });
-});
+            })
+        })
+    })
+})

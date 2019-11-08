@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.postcss,source.js.postcss</string>
+    <string>source.json.postcss</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

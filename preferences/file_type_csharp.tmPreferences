@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.cs, source.cs</string>
+    <string>source.cs</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

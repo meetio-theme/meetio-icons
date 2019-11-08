@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>text.pug,source.json.puglint,source.js.puglint,text.jade</string>
+    <string>source.json.puglint</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

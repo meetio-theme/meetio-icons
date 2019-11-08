@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>text.html.markdown, text.html.markdown.license</string>
+    <string>text.html.markdown</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

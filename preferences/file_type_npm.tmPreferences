@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.shell.npm, source.json.npm</string>
+    <string>source.shell.npm</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
