@@ -19,7 +19,18 @@ fs.readdirSync("./src/svg/").forEach(icon => {
                 { width: setting.size, height: setting.size },
                 function(error, buffer) {
                     fs.writeFileSync(
-                        `icons/${
+                        `icons/multi/${
+                            setting.suffix ? icon + setting.suffix : icon
+                        }.png`,
+                        buffer,
+                        err => {
+                            if (err) {
+                                console.log(err)
+                            }
+                        }
+                    )
+                    fs.writeFileSync(
+                        `icons/single/${
                             setting.suffix ? icon + setting.suffix : icon
                         }.png`,
                         buffer,

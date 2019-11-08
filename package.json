@@ -9,7 +9,6 @@
   "license": "MIT",
   "scripts": {
     "build:icons": "node src/build.js",
-    "build:preferences": "node src/preferences.js",
     "lint": "eslint *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

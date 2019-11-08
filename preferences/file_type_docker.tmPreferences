@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.yaml.docker</string>
+    <string>source.dockerfile, source.shell.docker, source.yaml.docker</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.vhdl</string>
+    <string>source.systemverilog, source.verilog, source.vhdl</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

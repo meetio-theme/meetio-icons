@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>text.plain.visualstudio</string>
+    <string>text.plain.visualstudio, text.xml.visualstudio</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

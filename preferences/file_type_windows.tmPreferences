@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>text.plain.lnk</string>
+    <string>source.dosbatch, text.plain.lnk</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
