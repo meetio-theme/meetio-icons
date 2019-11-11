@@ -13,7 +13,7 @@ fs.readdirSync("./src/svg/").forEach(icon => {
         .join(".")
     fs.readFile(iconPath, "utf8", (err, data) => {
         if (err) throw err
-        console.log(iconPath)
+
         data = Buffer.from(data, "utf8")
         defaultOptions.settings.forEach(setting => {
             svg2img(
