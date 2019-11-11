@@ -1,6 +1,7 @@
 /*eslint-disable no-undef */
 const path = require("path")
 const fs = require("fs")
+const rimraf = require("rimraf")
 const svg2img = require("svg2img")
 const defaultOptions = require("./settings/default")
 
@@ -12,34 +13,47 @@ fs.readdirSync("./src/svg/").forEach(icon => {
         .join(".")
     fs.readFile(iconPath, "utf8", (err, data) => {
         if (err) throw err
+        console.log(iconPath)
         data = Buffer.from(data, "utf8")
         defaultOptions.settings.forEach(setting => {
             svg2img(
                 data,
                 { width: setting.size, height: setting.size },
-                function(error, buffer) {
-                    fs.writeFileSync(
-                        `icons/multi/${
-                            setting.suffix ? icon + setting.suffix : icon
-                        }.png`,
-                        buffer,
-                        err => {
-                            if (err) {
-                                console.log(err)
-                            }
-                        }
-                    )
-                    fs.writeFileSync(
-                        `icons/single/${
-                            setting.suffix ? icon + setting.suffix : icon
-                        }.png`,
-                        buffer,
-                        err => {
-                            if (err) {
-                                console.log(err)
-                            }
-                        }
-                    )
+                (error, buffer) => {
+                    rimraf("icons/multi", () => {
+                        fs.mkdir("icons/multi", () => {
+                            fs.writeFileSync(
+                                `icons/multi/${
+                                    setting.suffix
+                                        ? icon + setting.suffix
+                                        : icon
+                                }.png`,
+                                buffer,
+                                err => {
+                                    if (err) {
+                                        console.log(err)
+                                    }
+                                }
+                            )
+                        })
+                    })
+                    rimraf("icons/single", () => {
+                        fs.mkdir("icons/single", () => {
+                            fs.writeFileSync(
+                                `icons/single/${
+                                    setting.suffix
+                                        ? icon + setting.suffix
+                                        : icon
+                                }.png`,
+                                buffer,
+                                err => {
+                                    if (err) {
+                                        console.log(err)
+                                    }
+                                }
+                            )
+                        })
+                    })
                 }
             )
         })
