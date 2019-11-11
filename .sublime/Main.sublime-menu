@@ -10,7 +10,7 @@
             "caption": "Meetio Theme Icons",
             "children": [
               {
-                "caption": "Revert to a Freshly Installed State",
+                "caption": "Refresh Package",
                 "command": "afi_revert"
               }
             ]
