@@ -1,6 +1,5 @@
 {
   "file_type_access": {
-    "color": "red",
     "aliases": [
       {
         "name": "Plain Text (Microsoft Access)",
@@ -25,7 +24,6 @@
     ]
   },
   "file_type_actionscript": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "ActionScript",
@@ -34,7 +32,6 @@
     ]
   },
   "file_type_ae": {
-    "color": "purple",
     "aliases": [
       {
         "name": "Plain Text (Adobe After Effects)",
@@ -48,7 +45,6 @@
     ]
   },
   "file_type_ai": {
-    "color": "orange",
     "aliases":[
       {
         "name": "Plain Text (Adobe Illustrator)",
@@ -61,7 +57,6 @@
     ]
   },
   "file_type_angular": {
-    "color": "pink",
     "syntaxes": [
       {
         "name": "Angular​JS",
@@ -70,7 +65,6 @@
     ]
   },
   "file_type_apache": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Apache Conf",
@@ -79,7 +73,6 @@
     ]
   },
   "file_type_applescript": {
-    "color": "graphite",
     "syntaxes": [
       {
         "name": "AppleScript",
@@ -88,7 +81,6 @@
     ]
   },
   "file_type_archive": {
-    "color": "graphite",
     "aliases":[
       {
         "name": "Plain Text (Archive)",
@@ -110,7 +102,6 @@
     ]
   },
   "file_type_audio": {
-    "color": "red",
     "aliases":[
       {
         "name": "Plain Text (Audio)",
@@ -138,7 +129,6 @@
     ]
   },
   "file_type_babel": {
-    "color": "yellow",
     "aliases": [
       {
         "name": "JSON (Babel)",
@@ -152,10 +142,8 @@
     ]
   },
   "file_type_binary": {
-    "color": "graphite"
   },
   "file_type_blade": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Laravel Blade Highlighter",
@@ -164,7 +152,6 @@
     ]
   },
   "file_type_bower": {
-    "color": "yellow",
     "aliases":[
       {
         "name": "JSON (Bower)",
@@ -179,7 +166,6 @@
     ]
   },
   "file_type_c": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "C",
@@ -192,7 +178,6 @@
     ]
   },
   "file_type_circleci": {
-    "color": "graphite",
     "aliases":[
       {
         "name": "YAML (CircleCI)",
@@ -206,7 +191,6 @@
     ]
   },
   "file_type_cf": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "ColdFusion",
@@ -219,7 +203,6 @@
     ]
   },
   "file_type_clojure": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Clojure",
@@ -228,7 +211,6 @@
     ]
   },
   "file_type_cmake": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "CMake",
@@ -242,7 +224,6 @@
     ]
   },
   "file_type_coffeescript": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "CoffeeScript",
@@ -251,7 +232,6 @@
     ]
   },
   "file_type_composer": {
-    "color": "orange",
     "aliases": [
       {
         "name": "JSON (Composer)",
@@ -266,7 +246,6 @@
     ]
   },
   "file_type_cpp": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "C++",
@@ -279,7 +258,6 @@
     ]
   },
   "file_type_c++": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "C++",
@@ -292,7 +270,6 @@
     ]
   },
   "file_type_csharp": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "C#",
@@ -301,7 +278,6 @@
     ]
   },
   "file_type_c#": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "C#",
@@ -310,7 +286,6 @@
     ]
   },
   "file_type_css": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "CSS",
@@ -319,7 +294,6 @@
     ]
   },
   "file_type_csv": {
-    "color": "green",
     "aliases":[
       {
         "name": "Plain Text (CSV)",
@@ -338,7 +312,6 @@
     ]
   },
   "file_type_cython": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Cython",
@@ -347,7 +320,6 @@
     ]
   },
   "file_type_dart": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Dart",
@@ -356,10 +328,8 @@
     ]
   },
   "file_type_default": {
-    "color": "graphite"
   },
   "file_type_delphi": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Pascal",
@@ -368,7 +338,6 @@
     ]
   },
   "file_type_dlang": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "D",
@@ -377,7 +346,6 @@
     ]
   },
   "file_type_diff": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Diff",
@@ -386,7 +354,6 @@
     ]
   },
   "file_type_docker": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Dockerfile",
@@ -414,7 +381,6 @@
     ]
   },
   "file_type_dotnet": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "ASP",
@@ -427,7 +393,6 @@
     ]
   },
   "file_type_editorconfig": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "EditorConfig",
@@ -436,7 +401,6 @@
     ]
   },
   "file_type_elm": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Elm",
@@ -445,7 +409,6 @@
     ]
   },
   "file_type_erlang": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Erlang",
@@ -454,7 +417,6 @@
     ]
   },
   "file_type_eslint": {
-    "color": "purple",
     "aliases": [
       {
         "name": "JSON (ESLint)",
@@ -504,7 +466,6 @@
     ]
   },
   "file_type_ex": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Elixir",
@@ -513,7 +474,6 @@
     ]
   },
   "file_type_excel": {
-    "color": "green",
     "aliases": [
       {
         "name": "Plain Text (Microsoft Excel)",
@@ -530,7 +490,6 @@
     ]
   },
   "file_type_font": {
-    "color": "green",
     "aliases":[
       {
         "name": "Plain Text (Font)",
@@ -547,7 +506,6 @@
     ]
   },
   "file_type_git": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Git Formats",
@@ -574,7 +532,6 @@
     ]
   },
   "file_type_go": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Go",
@@ -583,7 +540,6 @@
     ]
   },
   "file_type_gradle": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Gradle_Language",
@@ -602,7 +558,6 @@
     ]
   },
   "file_type_graphviz": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Graphviz (DOT)",
@@ -611,7 +566,6 @@
     ]
   },
   "file_type_groovy": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Groovy",
@@ -620,7 +574,6 @@
     ]
   },
   "file_type_gruntfile": {
-    "color": "orange",
     "aliases": [
       {
         "name": "JavaScript (Gruntfile)",
@@ -634,7 +587,6 @@
     ]
   },
   "file_type_gulpfile": {
-    "color": "pink",
     "aliases": [
       {
         "name": "JavaScript (Gulpfile)",
@@ -658,7 +610,6 @@
     ]
   },
   "file_type_haml": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Ruby Haml",
@@ -667,7 +618,6 @@
     ]
   },
   "file_type_haskell": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Haskell",
@@ -676,7 +626,6 @@
     ]
   },
   "file_type_haxe": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Haxe",
@@ -685,7 +634,6 @@
     ]
   },
   "file_type_html": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "HTML",
@@ -694,10 +642,8 @@
     ]
   },
   "file_type_image": {
-    "color": "green"
   },
   "file_type_indesign": {
-    "color": "pink",
     "aliases": [
       {
         "name": "Plain Text (Adobe InDesign)",
@@ -715,7 +661,6 @@
     ]
   },
   "file_type_java": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Java",
@@ -724,7 +669,6 @@
     ]
   },
   "file_type_js": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "JavaScript",
@@ -733,7 +677,6 @@
     ]
   },
   "file_type_json": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "JSON",
@@ -742,7 +685,6 @@
     ]
   },
   "file_type_jsp": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "JSP",
@@ -751,7 +693,6 @@
     ]
   },
   "file_type_jsx": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "JSX",
@@ -760,11 +701,14 @@
       {
         "name": "JS Custom - React",
         "scope": "source.js.react"
+      },
+      {
+        "name": "TSX",
+        "scope": "source.js.tsx"
       }
     ]
   },
   "file_type_julia": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Julia",
@@ -773,7 +717,6 @@
     ]
   },
   "file_type_kotlin": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "Kotlin",
@@ -782,7 +725,6 @@
     ]
   },
   "file_type_less": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "LESS",
@@ -791,7 +733,6 @@
     ]
   },
   "file_type_license": {
-    "color": "cyan",
     "aliases": [
       {
         "name": "Plain Text (License)",
@@ -816,7 +757,6 @@
     ]
   },
   "file_type_liquid": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "Siteleaf Liquid Syntax",
@@ -825,7 +765,6 @@
     ]
   },
   "file_type_lisp": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Lisp",
@@ -834,7 +773,6 @@
     ]
   },
   "file_type_lock": {
-    "color": "red",
     "aliases": [
       {
         "name": "YAML (Lock)",
@@ -849,7 +787,6 @@
     ]
   },
   "file_type_log": {
-    "color": "graphite",
     "aliases": [
       {
         "name": "Plain Text (Log)",
@@ -862,7 +799,6 @@
     ]
   },
   "file_type_lsl": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "LSL",
@@ -871,7 +807,6 @@
     ]
   },
   "file_type_lua": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "Lua",
@@ -880,7 +815,6 @@
     ]
   },
   "file_type_markdown": {
-    "color": "graphite",
     "syntaxes": [
       {
         "name": "Markdown",
@@ -889,10 +823,8 @@
     ]
   },
   "file_type_markup": {
-    "color": "purple"
   },
   "file_type_matlab": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "MATLAB",
@@ -901,7 +833,6 @@
     ]
   },
   "file_type_maya": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "MEL",
@@ -910,7 +841,6 @@
     ]
   },
   "file_type_mustache": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "HTML Mustache",
@@ -927,7 +857,6 @@
     ]
   },
   "file_type_nginx": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "nginx",
@@ -936,7 +865,6 @@
     ]
   },
   "file_type_nodejs": {
-    "color": "green",
     "aliases":[
       {
         "name": "Plain Text (NodeJS)",
@@ -950,7 +878,6 @@
     ]
   },
   "file_type_note": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "PlainNotes",
@@ -959,7 +886,6 @@
     ]
   },
   "file_type_npm": {
-    "color": "red",
     "aliases": [
       {
         "name": "Shell Script (NPM)",
@@ -983,7 +909,6 @@
     ]
   },
   "file_type_nsis": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "NSIS",
@@ -992,7 +917,6 @@
     ]
   },
   "file_type_ocaml": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "OCaml",
@@ -1001,7 +925,6 @@
     ]
   },
   "file_type_onenote": {
-    "color": "purple",
     "aliases": [
       {
         "name": "Plain Text (Microsoft OneNote)",
@@ -1014,7 +937,6 @@
     ]
   },
   "file_type_pdf": {
-    "color": "red",
     "aliases": [
       {
         "name": "Plain Text (PDF)",
@@ -1027,7 +949,6 @@
     ]
   },
   "file_type_perl": {
-    "color": "graphite",
     "syntaxes": [
       {
         "name": "Perl",
@@ -1036,7 +957,6 @@
     ]
   },
   "file_type_php": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "PHP",
@@ -1045,7 +965,6 @@
     ]
   },
   "file_type_plist": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "plist",
@@ -1054,7 +973,6 @@
     ]
   },
   "file_type_postcss": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Syntax Highlighting for Post​CSS",
@@ -1083,7 +1001,6 @@
     ]
   },
   "file_type_powerpoint": {
-    "color": "orange",
     "aliases": [
       {
         "name": "Plain Text (Microsoft PowerPoint)",
@@ -1099,7 +1016,6 @@
     ]
   },
   "file_type_powershell": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "PowerShell",
@@ -1108,11 +1024,9 @@
     ]
   },
   "file_type_preferences": {
-    "color": "yellow",
     "syntaxes": []
   },
   "file_type_premiere": {
-    "color": "purple",
     "aliases": [
       {
         "name": "Plain Text (Adobe Premiere Pro)",
@@ -1127,7 +1041,6 @@
     ]
   },
   "file_type_procfile": {
-    "color": "purple",
     "aliases": [
       {
         "name": "YAML (Procfile)",
@@ -1149,7 +1062,6 @@
     ]
   },
   "file_type_psd": {
-    "color": "sky",
     "aliases": [
       {
         "name": "Plain Text (Adobe Photoshop)",
@@ -1163,7 +1075,6 @@
     ]
   },
   "file_type_pug": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Jade",
@@ -1197,7 +1108,6 @@
     ]
   },
   "file_type_puppet": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Puppet",
@@ -1206,7 +1116,6 @@
     ]
   },
   "file_type_python": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Python",
@@ -1215,7 +1124,6 @@
     ]
   },
   "file_type_r": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "R",
@@ -1224,7 +1132,6 @@
     ]
   },
   "file_type_rails": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Rails",
@@ -1233,7 +1140,6 @@
     ]
   },
   "file_type_registry": {
-    "color": "sky",
     "aliases": [
       {
         "name": "Registry (REG)",
@@ -1246,7 +1152,6 @@
     ]
   },
   "file_type_restructuredtext": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "reStructuredText",
@@ -1255,7 +1160,6 @@
     ]
   },
   "file_type_riot": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Riot (Jade/Pug)",
@@ -1268,7 +1172,6 @@
     ]
   },
   "file_type_ruby": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Ruby",
@@ -1297,7 +1200,6 @@
     ]
   },
   "file_type_rust": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Rust",
@@ -1306,7 +1208,6 @@
     ]
   },
   "file_type_sass": {
-    "color": "pink",
     "syntaxes": [
       {
         "name": "Sass",
@@ -1315,7 +1216,6 @@
     ]
   },
   "file_type_scala": {
-    "color": "red",
     "syntaxes": [
       {
         "name": "Scala",
@@ -1324,7 +1224,6 @@
     ]
   },
   "file_type_scss": {
-    "color": "pink",
     "syntaxes": [
       {
         "name": "SCSS",
@@ -1333,7 +1232,6 @@
     ]
   },
   "file_type_settings": {
-    "color": "graphite",
     "syntaxes": [
       {
         "name": "INI",
@@ -1367,7 +1265,6 @@
     ]
   },
   "file_type_shell": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "Shell Script (Bash)",
@@ -1380,7 +1277,6 @@
     ]
   },
   "file_type_sketch": {
-    "color": "purple",
     "aliases":[
       {
         "name": "Plain Text (Sketch)",
@@ -1393,7 +1289,6 @@
     ]
   },
   "file_type_slim": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Ruby Slim",
@@ -1402,10 +1297,8 @@
     ]
   },
   "file_type_source": {
-    "color": "sky"
   },
   "file_type_sql": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "SQL",
@@ -1414,7 +1307,6 @@
     ]
   },
   "file_type_stata": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Stata",
@@ -1423,7 +1315,6 @@
     ]
   },
   "file_type_stylelint": {
-    "color": "graphite",
     "aliases": [
       {
         "name": "JSON (Stylelint)",
@@ -1466,7 +1357,6 @@
     ]
   },
   "file_type_stylus": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "Stylus",
@@ -1475,7 +1365,6 @@
     ]
   },
   "file_type_sublime": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Sublime Text Key Map",
@@ -1492,9 +1381,7 @@
         "linter": "json",
         "extensions": [
           ".no-sublime-package",
-          "hidden-color-scheme",
           "hidden-theme",
-          "sublime-color-scheme",
           "sublime-commands",
           "sublime-menu",
           "sublime-project",
@@ -1518,7 +1405,6 @@
     ]
   },
   "file_type_svelte": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Svelte",
@@ -1527,7 +1413,6 @@
     ]
   },
   "file_type_svg": {
-    "color": "orange",
     "aliases": [
       {
         "name": "XML (SVG)",
@@ -1541,7 +1426,6 @@
     ]
   },
   "file_type_swift": {
-    "color": "orange",
     "syntaxes": [
       {
         "name": "Swift",
@@ -1550,7 +1434,6 @@
     ]
   },
   "file_type_tcl": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "Tcl",
@@ -1559,7 +1442,6 @@
     ]
   },
   "file_type_tern": {
-    "color": "graphite",
     "aliases": [
       {
         "name": "JSON (Tern JS)",
@@ -1574,7 +1456,6 @@
     ]
   },
   "file_type_terraform": {
-    "color": "purple",
     "syntaxes": [
       {
         "name": "Terraform",
@@ -1583,7 +1464,6 @@
     ]
   },
   "file_type_tex": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "LaTeX",
@@ -1592,10 +1472,8 @@
     ]
   },
   "file_type_text": {
-    "color": "yellow"
   },
   "file_type_textile": {
-    "color": "pink",
     "syntaxes": [
       {
         "name": "Textile",
@@ -1604,7 +1482,6 @@
     ]
   },
   "file_type_todo": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "PlainTasks",
@@ -1613,7 +1490,6 @@
     ]
   },
   "file_type_twig": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "PHP-Twig",
@@ -1622,7 +1498,6 @@
     ]
   },
   "file_type_typescript": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "TypeScript",
@@ -1631,7 +1506,6 @@
     ]
   },
   "file_type_unity3d": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Boo (Unity 3D)",
@@ -1652,7 +1526,6 @@
     ]
   },
   "file_type_vhdl": {
-    "color": "blue",
     "syntaxes": [
       {
         "name": "VHDL",
@@ -1669,7 +1542,6 @@
     ]
   },
   "file_type_video": {
-    "color": "purple",
     "aliases":[
       {
         "name": "Plain Text (Video)",
@@ -1696,7 +1568,6 @@
     ]
   },
   "file_type_vim": {
-    "color": "green",
     "syntaxes": [
       {
         "name": "VimL",
@@ -1718,7 +1589,6 @@
     ]
   },
   "file_type_visualstudio": {
-    "color": "purple",
     "aliases": [
       {
         "name": "Plain Text (Visual Studio)",
@@ -1750,7 +1620,6 @@
     ]
   },
   "file_type_vue": {
-    "color": "cyan",
     "syntaxes": [
       {
         "name": "Vue Syntax Highlight",
@@ -1759,7 +1628,6 @@
     ]
   },
   "file_type_webpack": {
-    "color": "blue",
     "aliases": [
       {
         "name": "JavaScript (Webpack)",
@@ -1775,7 +1643,6 @@
     ]
   },
   "file_type_windows": {
-    "color": "sky",
     "syntaxes": [
       {
         "name": "Batch File",
@@ -1794,7 +1661,6 @@
     ]
   },
   "file_type_word": {
-    "color": "blue",
     "aliases": [
       {
         "name": "Plain Text (Microsoft Word)",
@@ -1813,7 +1679,6 @@
     ]
   },
   "file_type_yaml": {
-    "color": "yellow",
     "syntaxes": [
       {
         "name": "YAML",
@@ -1822,7 +1687,6 @@
     ]
   },
   "file_type_yarn": {
-    "color": "blue",
     "aliases": [
       {
         "name": "YAML (Yarn)",
