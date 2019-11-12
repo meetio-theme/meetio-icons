@@ -51,4 +51,4 @@ if int(sublime.version()) >= 3114:
             if is_upgrading or was_removed:
                 clean_all()
 else:
-    raise ImportWarning("Doesn't support Sublime Text versions <= 3114")
+    raise ImportWarning("Doesn't support Sublime Text versions prior to 3114")

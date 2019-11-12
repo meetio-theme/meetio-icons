@@ -3,7 +3,7 @@ const path = require("path")
 const fs = require("fs")
 const rimraf = require("rimraf")
 const svg2img = require("svg2img")
-const defaultOptions = require("./settings/default")
+const defaultOptions = require("./defaultOptions")
 
 fs.readdirSync("./src/svg/").forEach(icon => {
     const iconPath = path.join(__dirname, `/../src/svg/${icon}`)
