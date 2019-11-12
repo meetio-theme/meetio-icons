@@ -22,6 +22,7 @@ fs.readdirSync("./src/svg/").forEach(icon => {
                 (error, buffer) => {
                     rimraf("icons", () => {
                         fs.mkdir("icons", () => {
+                            console.log(icon);
                             fs.writeFileSync(
                                 `icons/${
                                     setting.suffix
