@@ -20,27 +20,10 @@ fs.readdirSync("./src/svg/").forEach(icon => {
                 data,
                 { width: setting.size, height: setting.size },
                 (error, buffer) => {
-                    rimraf("icons/multi", () => {
-                        fs.mkdir("icons/multi", () => {
+                    rimraf("icons", () => {
+                        fs.mkdir("icons", () => {
                             fs.writeFileSync(
-                                `icons/multi/${
-                                    setting.suffix
-                                        ? icon + setting.suffix
-                                        : icon
-                                }.png`,
-                                buffer,
-                                err => {
-                                    if (err) {
-                                        console.log(err)
-                                    }
-                                }
-                            )
-                        })
-                    })
-                    rimraf("icons/single", () => {
-                        fs.mkdir("icons/single", () => {
-                            fs.writeFileSync(
-                                `icons/single/${
+                                `icons/${
                                     setting.suffix
                                         ? icon + setting.suffix
                                         : icon
