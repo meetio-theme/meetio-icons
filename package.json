@@ -8,17 +8,17 @@
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node src/build.js",
     "lint": "eslint *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.15.3",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.12.1",
     "eslint-config-eslint": "^5.0.1",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3",
     "rimraf": "^3.0.0",
     "svg2img": "^0.6.1"
   }
