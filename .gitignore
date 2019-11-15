@@ -8,6 +8,7 @@ schemes/*.chback
 *.sublime-project
 *.sublime-workspace
 package-lock.json
+yarn.lock
 
 # Other
 .DS_Store
