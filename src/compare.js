@@ -155,3 +155,8 @@ existsIcons.forEach(value => {
     if (!aFileIcons.includes(value))  console.log(value)
 })
 
+console.log('MISSED ICONS')
+aFileIcons.forEach(value => {
+    if (!existsIcons.includes(value))  console.log(value)
+})
+

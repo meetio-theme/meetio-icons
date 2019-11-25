@@ -153,4 +153,4 @@ $ yarn add meetio-theme-icons
 | file_type_windows          | ![file_type_windows](src/svg/file_type_windows.svg)                   |
 | file_type_word             | ![file_type_word](src/svg/file_type_word.svg)                         |
 | file_type_yaml             | ![file_type_yaml](src/svg/file_type_yaml.svg)                         |
-| file_type_yarn             | ![file_type_yarn](src/svg/file_type_yar.svg)                          |
+| file_type_yarn             | ![file_type_yarn](src/svg/file_type_yarn.svg)                          |
