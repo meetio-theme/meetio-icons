@@ -12,8 +12,8 @@
     },
     "license": "MIT",
     "scripts": {
-        "lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
-        "build": "node src/index.ts",
+        "lint": "eslint --fix -c tslint.json 'src/**/*.js'",
+        "build": "node src/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
