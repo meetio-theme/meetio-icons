@@ -30,8 +30,6 @@ $ yarn add meetio-theme-icons
 | file_type_blade            | ![file_type_blade](src/svg/file_type_blade.svg)                       |
 | file_type_bower            | ![file_type_bower](src/svg/file_type_bower.svg)                       |
 | file_type_c                | ![file_type_c](src/svg/file_type_c.svg)                               |
-| file_type_c#               | ![file_type_c#](src/svg/file_type_c#.svg)                             |
-| file_type_c++              | ![file_type_c++](src/svg/file_type_c++.svg)                           |
 | file_type_cf               | ![file_type_cf](src/svg/file_type_cf.svg)                             |
 | file_type_circleci         | ![file_type_circleci](src/svg/file_type_circleci.svg)                 |
 | file_type_clojure          | ![file_type_clojure](src/svg/file_type_clojure.svg)                   |

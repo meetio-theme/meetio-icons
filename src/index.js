@@ -47,5 +47,5 @@ module.exports.run = function(settings = { dist: "icons", options: {} }) {
             })
         })
     })
-}()
+}
 
