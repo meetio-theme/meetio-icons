@@ -13,7 +13,7 @@
     "license": "MIT",
     "scripts": {
         "lint": "eslint --fix -c tslint.json 'src/**/*.js'",
-        "build": "node src/index.js",
+        "build": "node test/build.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
@@ -27,6 +27,7 @@
         "eslint-plugin-node": "^8.0.1",
         "eslint-plugin-prettier": "^3.0.1",
         "prettier": "^1.15.3",
+        "rimraf": "^3.0.0",
         "svg2img": "^0.6.1"
     }
 }

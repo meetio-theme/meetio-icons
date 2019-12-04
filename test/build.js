@@ -1,4 +1,7 @@
 /*eslint-disable no-undef */
+const rimraf = require("rimraf")
 const build = require("../src/index.js")
 
-build.run()
+rimraf('icons', () => {
+    build.run()
+});
