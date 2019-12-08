@@ -139,6 +139,7 @@ $ yarn add meetio-theme-icons
 | file_type_text             | ![file_type_text](src/svg/file_type_text.svg)                 |
 | file_type_textile          | ![file_type_textile](src/svg/file_type_textile.svg)           |
 | file_type_todo             | ![file_type_todo](src/svg/file_type_todo.svg)                 |
+| file_type_tsx             | ![file_type_tsx](src/svg/file_type_tsx.svg)                 |
 | file_type_twig             | ![file_type_twig](src/svg/file_type_twig.svg)                 |
 | file_type_typescript       | ![file_type_typescript](src/svg/file_type_typescript.svg)     |
 | file_type_unity3d          | N/A                                                             |
