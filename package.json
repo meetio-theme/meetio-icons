@@ -5,10 +5,10 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/meetio-theme/sublime-meetio-theme-icons.git"
+        "url": "https://github.com/meetio-theme/meetio-icons.git"
     },
     "bugs": {
-        "url": "https://github.com/meetio-theme/sublime-meetio-theme-icons/issues"
+        "url": "https://github.com/meetio-theme/meetio-icons/issues"
     },
     "license": "MIT",
     "scripts": {
