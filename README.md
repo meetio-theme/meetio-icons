@@ -1,4 +1,4 @@
-# Meetio Theme Icons
+# Meetio Icons
 
 The most delicious and wonderful icons for Meetio Theme
 
@@ -6,10 +6,10 @@ The most delicious and wonderful icons for Meetio Theme
 
 ```bash
 # NPM
-$ npm install meetio-theme-icons --save
+$ npm install @meetio/meetio-icons --D
 
 # YARN
-$ yarn add meetio-theme-icons
+$ yarn add @meetio/meetio-icons
 ```
 
 ### Icons
