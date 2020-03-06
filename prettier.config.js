@@ -1,7 +1,6 @@
-/*eslint-disable no-undef */
 module.exports = {
-    tailingComma: "all",
+    trailingComma: "es5",
     tabWidth: 4,
-    semi: false,
-    singleQuote: false
-}
+    semi: true,
+    singleQuote: true
+};

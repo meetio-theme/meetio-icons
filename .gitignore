@@ -4,6 +4,7 @@ icons/
 
 # Files In Folders
 schemes/*.chback
+dist/
 
 # Files
 *.sublime-project

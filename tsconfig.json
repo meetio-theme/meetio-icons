@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": false,
+        "target": "es6",
+        "outDir": "dist",
+        "rootDir": "scripts/",
+        "lib": ["es7", "dom"],
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "allowUnreachableCode": false,
+        "noUnusedLocals": true,
+        "allowJs": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "typeRoots" : ["./typings", "./node_modules/@types"]
+    },
+    "include": ["scripts/", "typings/"],
+    "exclude": ["node_modules"]
+}
