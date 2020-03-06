@@ -1,17 +1,17 @@
 {
     "name": "@meetio/meetio-icons",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "The most delicious and wonderful icons for Meetio Theme",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-    "main": "dist/index.js",
-    "types": "dist/index",
+    "main": "scripts/index",
+    "types": "scripts/index",
     "bugs": {
         "url": "https://github.com/meetio-theme/meetio-icons/issues"
     },
     "license": "MIT",
     "scripts": {
         "build": "tsc",
-        "build:icons": "ts-node scripts/build.ts",
+        "build:icons": "ts-node tests/index.ts",
         "lint": "eslint \"scripts/*.ts\"",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
