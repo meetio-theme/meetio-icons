@@ -18,8 +18,8 @@ export default function buildIconsType(
 ) {
     const { distFolder, options } = settings;
     const sizes: IOptions[] = { ...options, ...defaultOptions };
-
     const svgSrc = path.join(__dirname, `/svg/`);
+
     fs.readdirSync(svgSrc).forEach((icon: string) => {
         const iconPath = path.join(__dirname, `/svg/${icon}`);
         icon = icon
