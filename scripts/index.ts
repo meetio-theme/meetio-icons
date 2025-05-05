@@ -1,6 +1,6 @@
 import * as path from 'path';
 import * as fs from 'fs';
-import svg2img from 'svg2img';
+import { Resvg } from '@resvg/resvg-js';
 import defaultOptions from './defaultOptions';
 
 export interface IOptions {
@@ -30,22 +30,22 @@ export default function buildIconsType(
             if (err) throw err;
             data = Buffer.from(data, 'utf8');
             Object.values(sizes).forEach((setting: IOptions) => {
-                svg2img(
-                    data,
-                    { width: setting.size, height: setting.size },
-                    (_: any, buffer: Buffer) => {
-                        fs.mkdir(distFolder, () => {
+                    const resvg = new Resvg(data, {
+                        fitTo: { mode: 'width', value: setting.size },
+                    });
+                    const pngData = resvg.render();
+                    const pngBuffer = pngData.asPng();
+
+                         fs.mkdir(distFolder, () => {
                             fs.writeFileSync(
                                 `${distFolder}/${
                                     setting.suffix
                                         ? icon + setting.suffix
                                         : icon
                                 }.png`,
-                                buffer
+                                pngBuffer
                             );
                         });
-                    }
-                );
             });
         });
     });

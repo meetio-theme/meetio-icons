@@ -1,6 +1,6 @@
 {
     "name": "@meetio/meetio-icons",
-    "version": "1.10.0",
+    "version": "1.11.0",
     "description": "The most delicious and wonderful icons for Meetio Theme",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "main": "dist/index.js",
@@ -48,7 +48,7 @@
         "husky": "^7.0.4",
         "prettier": "^2.4.1",
         "rimraf": "^3.0.2",
-        "svg2img": "^0.9.4",
+        "@resvg/resvg-js": "^2.6.2",
         "ts-node": "^10.4.0",
         "typescript": "^4.4.4"
     }
