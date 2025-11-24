@@ -4,7 +4,7 @@
         "declaration": true,
         "target": "es6",
         "outDir": "dist",
-        "rootDir": "scripts/",
+        "rootDir": "lib/",
         "lib": ["es7", "dom"],
         "esModuleInterop": true,
         "sourceMap": true,
@@ -14,14 +14,12 @@
         "noUnusedParameters": true,
         "strict": true,
         "noImplicitAny": false,
-        "esModuleInterop": true,
-        "resolveJsonModule": true,
         "resolveJsonModule": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "moduleResolution": "node",
         "typeRoots" : ["./typings", "./node_modules/@types"]
     },
-    "include": ["scripts/", "typings/"],
+    "include": ["lib/", "typings/"],
     "exclude": ["node_modules"]
 }

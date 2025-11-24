@@ -8,8 +8,8 @@
         "definition": "dist/index.d.ts"
     },
     "files": [
-        "dist/*.js",
         "icons/*.svg",
+        "dist/*.js",
         "dist/*.d.ts"
     ],
     "types": "dist/index",

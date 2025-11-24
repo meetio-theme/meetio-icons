@@ -1,3 +1,3 @@
-import buildIconsType from '../scripts/index';
+import buildIconsType from '../lib/index';
 
-buildIconsType({ distFolder: 'build/icons' });
+buildIconsType({ distFolder: 'build/icons', options: { size: "10" } });

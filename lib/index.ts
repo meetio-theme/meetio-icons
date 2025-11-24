@@ -1,8 +1,7 @@
 import * as path from 'path';
 import * as fs from 'fs/promises';
 import { Resvg } from '@resvg/resvg-js';
-import defaultOptions from './defaultOptions';
-import { log } from './lib/log';
+import { log } from './logger';
 
 export interface IOptions {
     /** Target output size in px */
@@ -10,6 +9,21 @@ export interface IOptions {
     /** Suffix appended to the output filename, or false for none */
     suffix: string | boolean;
 }
+
+const defaultOptions: IOptions[] = [
+    {
+        size: 24,
+        suffix: false,
+    },
+    {
+        size: 48,
+        suffix: '@2x',
+    },
+    {
+        size: 72,
+        suffix: '@3x',
+    },
+];
 
 export interface ISettings {
     /** Destination folder where generated icons will be written */
