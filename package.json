@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "@types/node": "^24.10.1",
-        "@babel/core": "7.28.5",
+        "@babel/core": "7.29.6",
         "@babel/preset-env": "7.28.5",
         "@commitlint/cli": "^20.1.0",
         "@commitlint/config-conventional": "^20.0.0",
